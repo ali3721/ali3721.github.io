@@ -1,0 +1,5 @@
+每天定时关机命令
+schtasks /create /sc daily /tn "shutdown1" /tr "shutdown -s -t 1000" /st 23:45
+schtasks /create /sc daily /tn "shutdown2" /tr "shutdown -s -t 1000" /st 18:00
+schtasks /create /sc daily /tn "shutdown3" /tr "shutdown -s -t 1000" /st 1:45
+schtasks /create /sc daily /tn "shutdown4" /tr "shutdown -s -t 1000" /st 13:00
